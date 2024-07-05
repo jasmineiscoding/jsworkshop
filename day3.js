@@ -21,7 +21,7 @@ if (israining)
             console.log("You cannot vote:(")
         }
 
-    if(age === 19)
+    if(age === 19)       //Strict equals to operator, checks values as well as data type
         {
             console.log("Age is equal to nineteen")
         }
@@ -30,15 +30,20 @@ if (israining)
             console.log("Age is not equal to nineteen")
         }
 
-    //ternary operator
+    
+//ternary operator
 
-    const result = israining ? "Carry an umbrella" : "Don't carry an umbrella";
+    const result = israining ? "Carry an umbrella" : "Don't carry an umbrella";  //const var = (Condition) ? "True statement" : "False statement"
     console.log (result);
 
-    //Short circuit method
-    israining && console.log("Carry Umbrella")
 
-    //if else if
+
+    //Short circuit method
+    israining && console.log("Carry Umbrella")     //doesn't execute if the statement's value is false  //&& aagadiko ko true xa bhane true execute hunxa
+
+
+
+//if else if
 
     const temperature = 27;
 
@@ -52,7 +57,8 @@ if (israining)
         console.log("Cool")
     }
 
-    //task
+
+//task
 
     const grade = 70;
 
@@ -72,6 +78,7 @@ if (israining)
         {
             console.log("Fail")
         }
+
 
 
 //loops
@@ -106,7 +113,9 @@ for( let key in data){
     console.log(key + " is " + data[key] )
 }
 
-//Functions
+
+
+//Functions:
 
 //regular functions
 
@@ -116,6 +125,7 @@ function add(a,b){
 }
 
 add(1,2)
+
 
 //named regular function
 
@@ -134,6 +144,8 @@ const add3 = (a,b) =>
     console.log("This is an anonymous function")
 }
 
+
+
 //task
 
 const numbers = [1,2,3,4,5]
@@ -146,6 +158,7 @@ const func = function(a,b,c,d,e){
 }
 
 func(numbers)
+
 
 //another task
 
@@ -160,6 +173,7 @@ function squareit(numbers)
 }
 
 squareit(numbers);
+
 
 // task once again 
 
@@ -193,12 +207,15 @@ const shareddata = {
 
 function getdata(shareddata){
 
-console.log(shareddata.code[0].userId)
+console.log(shareddata.code[0].userId)          //code[0], to access first element of the array
 console.log(shareddata.code[0].title)
 console.log(shareddata.code[0].ipAddress)
 }
 
 getdata(shareddata); 
+
+
+
 
 
 
