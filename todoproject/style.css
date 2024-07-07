@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(156, 245, 150);
+    font-family: cursive;
+    margin:0;
+    padding:20px;
+    text-align: center;
+}
+
+h1{
+    color: green;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+input[type='text']{
+    padding: 8px;
+    font-size: 16px;
+}
+
+button{
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(67, 23, 40);
+}
+
+p{
+    color: rgb(98, 15, 59);
+    font-size: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: disc;
+    padding: 0;
+    margin:0;
+}
+
+li{
+    background-color: white;
+    padding: 10px;
+    margin: 5px  0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li.completed{
+    text-decoration: line-through;
+    color: blueviolet;
+}
+
+li.hover{
+    background-color: whitesmoke;
+}
+
